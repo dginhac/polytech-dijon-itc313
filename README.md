@@ -1,28 +1,30 @@
-# Mastering Object-Oriented Programming in C++:  From Fundamentals to Best Practices (Polytech'Dijon)
+# Mastering Object-Oriented Programming in C++:  The Art of Object-Oriented Programming (Polytech'Dijon)
 
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 [![License: GPL v3][gpl-3-shield]][gpl-3]
 
 ## Introduction
 
-The documents available in this GitHub repository are intended for students in the Computer Science / Electronics / Robotics departments
-of the [Polytech'Dijon](http://esirem.u-bourgogne.fr) engineering school - Dijon - France.
+The documents available in this GitHub repository are intended for students in the Computer Science / Electronics departments
+of the [Polytech'Dijon](https://polytech.ube.fr/) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
-## Latest NEWS from Season 2024-2025:
+## Latest NEWS from Season 2025-2026:
 
+<!--
 * 2024/11/20: add lecture 04 (STL) and code samples
 * 2024/11/06: add lecture 03 (Polymorphism) and code samples
 * 2024/10/22: add lecture 02 (Inheritance) and code samples
 * 2024/10/15: update code samples for lecture 01 (User-defined Data Types)
 * 2024/10/03: add TD1 (Tutorials) for lecture 01 (User-defined Data Types)
 * 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
-* 2024/09/26: add code samples for lecture 01 (User-defined Data Types)
-* 2024/09/26: add lecture 01 (User-defined Data Types)
-* 2024/09/18: add lecture 00 (Introduction)
+-->
+* 2025/09/25: add code samples for lecture 01 (User-defined Data Types)
+* 2025/09/25: add lecture 01 (User-defined Data Types)
+* 2025/09/25: add lecture 00 (Introduction)
 
 
-## Lectures 2024-2025
+## Lectures 2025-2026
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
 * Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 30 MB - Last release on Sept., 18, 2024
@@ -48,11 +50,18 @@ Two additional presentations are also available:
 
 ## Past Seasons
 
+### Season 2024-2025
+* Lecture 00: [Course Introduction](https://ginhac.com/teaching/ITC313/2024-2025/00-intro.pdf) - 30 MB - Last release on Sept., 18, 2024
+* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 36 MB - Last release on Oct., 15, 2024
+* Lecture 02: [Inheritance](https://ginhac.com/teaching/ITC313/2024-2025/02-inheritance.pdf) - 9.9 MB - Last release on Oct., 22, 2024
+* Lecture 03: [Polymorphism](https://ginhac.com/teaching/ITC313/2024-2025/03-polymorphism.pdf) - 18 MB - Last release on Nov., 6, 2024
+* Lecture 04: [Standard Template Library](https://ginhac.com/teaching/ITC313/2024-2025/04-stl.pdf) - 15 MB - Last release on Oct., 22, 2023
+
 ### Season 2023-2024
-* Lecture 00: [Course Introduction](https://ginhac.com/teaching/ITC313/latest/00-introduction.pdf) - 27 MB - Last release on Sept., 26, 2023
-* Lecture 01: [User-defined Data Types](https://ginhac.com/teaching/ITC313/latest/01-usertypes.pdf) - 33 MB - Last release on Sept., 26, 2023
-* Lecture 03: [Polymorphism](https://ginhac.com/teaching/ITC313/latest/03-polymorphism.pdf) - 14 MB - Last release on Oct., 15, 2023
-* Lecture 04: [Standard Template Library](https://ginhac.com/teaching/ITC313/latest/04-stl.pdf) - 12 MB - Last release on Oct., 22, 2023
+* Lecture 00: [Course Introduction](https://ginhac.com/teaching/ITC313/2023-2024/00-introduction.pdf) - 27 MB - Last release on Sept., 26, 2023
+* Lecture 01: [User-defined Data Types](https://ginhac.com/teaching/ITC313/2023-2024/01-usertypes.pdf) - 33 MB - Last release on Sept., 26, 2023
+* Lecture 03: [Polymorphism](https://ginhac.com/teaching/ITC313/2023-2024/03-polymorphism.pdf) - 14 MB - Last release on Oct., 15, 2023
+* Lecture 04: [Standard Template Library](https://ginhac.com/teaching/ITC313/2023-2024/04-stl.pdf) - 12 MB - Last release on Oct., 22, 2023
 
 ### Season 2022-2023
 * Lecture 00: [Course Introduction](https://ginhac.com/teaching/ITC313/2022-2023/00-introduction.pdf) - 26 MB - Last release on Sept., 27, 2022
