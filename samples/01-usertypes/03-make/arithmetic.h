@@ -4,7 +4,7 @@
 #define ARITHMETIC_H
 
 // Function prototypes - only the function signature (return tyoe, name, parameters)
-int maxOfTwo(int x, int y);
-bool isEven(int x);
+int max_of_two(int x, int y);
+bool is_even(int x);
 
 #endif // ARITHMETIC_H
