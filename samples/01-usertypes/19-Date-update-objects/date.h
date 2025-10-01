@@ -9,8 +9,8 @@ public:
    void updateMonth(int new_month);
    void updateDay(int new_day);
 private:
-   bool isDate(int month, int day) const;
-   int _month;
-   int _day;
+   int month_;
+   int day_;
+   bool isDate(int month, int day);
 };
 #endif // DATE_H

@@ -8,13 +8,13 @@ public:
    int day() const;
    void updateMonth(int new_month);
    void updateDay(int new_day);
+   int getDaysInMonth(int month) const;
    int dayOfYear() const;
    void next();
    void back();
 private:
-   int _month;
-   int _day;
-   bool isDate(int month, int day) const;
-   int getDaysInMonth(int month) const;
+   int month_;
+   int day_;
+   bool isDate(int month, int day);
 };
 #endif // DATE_H

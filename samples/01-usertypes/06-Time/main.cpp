@@ -1,7 +1,7 @@
 #include <ctime>
 #include <iostream>
 
-int main(int argc, char const *argv[])
+int main()
 {
     std::time_t result = std::time(nullptr);
     std::cout << std::asctime(std::localtime(&result))

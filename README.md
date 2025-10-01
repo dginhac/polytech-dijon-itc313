@@ -30,8 +30,8 @@ They are subject to change as the content of this module evolves.
 ## Lectures 2025-2026
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
-* Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 31 MB - Last release on Sept., 30, 2025
-* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 39 MB - Last release on Oct., 01, 2025
+* Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 32 MB - Last release on Sept., 30, 2025
+* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 40 MB - Last release on Oct., 01, 2025
 <!--
 * Lecture 02: [Inheritance](https://ginhac.com/ITC313/02-inheritance.pdf) - 9.9 MB - Last release on Oct., 22, 2024
 * Lecture 03: [Polymorphism](https://ginhac.com/ITC313/03-polymorphism.pdf) - 18 MB - Last release on Nov., 6, 2024
