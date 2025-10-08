@@ -4,8 +4,6 @@
 class Date {
 public:
    Date(int month=1, int day=1);
-   // copy constructor
-   Date(const Date& other);
    int month();
    int day();
 private:
