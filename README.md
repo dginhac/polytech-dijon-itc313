@@ -19,6 +19,7 @@ They are subject to change as the content of this module evolves.
 * 2024/10/03: add TD1 (Tutorials) for lecture 01 (User-defined Data Types)
 * 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
 -->
+* 2025/10/15: update lecture 01 (User-defined Data Types)
 * 2025/10/15: add TD1 and TD2 (Tutorials)
 * 2025/10/08: update code samples for lecture 01 (User-defined Data Types)
 * 2025/10/08: update lecture 01 (User-defined Data Types)
@@ -32,7 +33,7 @@ They are subject to change as the content of this module evolves.
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
 * Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 32 MB - Last release on Sept., 30, 2025
-* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 45 MB - Last release on Oct., 08, 2025
+* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 36 MB - Last release on Oct., 15, 2025
 <!--
 * Lecture 02: [Inheritance](https://ginhac.com/ITC313/02-inheritance.pdf) - 9.9 MB - Last release on Oct., 22, 2024
 * Lecture 03: [Polymorphism](https://ginhac.com/ITC313/03-polymorphism.pdf) - 18 MB - Last release on Nov., 6, 2024
