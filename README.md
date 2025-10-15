@@ -19,6 +19,7 @@ They are subject to change as the content of this module evolves.
 * 2024/10/03: add TD1 (Tutorials) for lecture 01 (User-defined Data Types)
 * 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
 -->
+* 2025/10/15: add TD1 and TD2 (Tutorials)
 * 2025/10/08: update code samples for lecture 01 (User-defined Data Types)
 * 2025/10/08: update lecture 01 (User-defined Data Types)
 * 2025/09/30: update lecture 00 (Introduction)
