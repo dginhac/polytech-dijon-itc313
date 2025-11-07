@@ -9,8 +9,8 @@ int main () {
    std::cout << "ps1(" << ps1.x << "," << ps1.y << ")" << std::endl;
 
    PointClass pc1;
-   pc1.x = 4.5; // Error: x is private
-   pc1.y = 3.2; // Error: y is private
-   std::cout << "pc1(" << pc1.x << "," << pc1.y << ")" << std::endl;
+   pc1.x_ = 4.5; // Error: x is private
+   pc1.y_ = 3.2; // Error: y is private
+   std::cout << "pc1(" << pc1.x_ << "," << pc1.y_ << ")" << std::endl;
    return 0;
 }
