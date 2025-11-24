@@ -50,13 +50,13 @@ Date Date::nextDay() const {
 }
 
 bool Date::isBefore(const Date& other) const {
-    if (month_<other.month()) return true;
-    if ((month_ == other.month()) && (day_<other.day())) return true;
+    if (month_<other.month_) return true;
+    if ((month_ == other.month_) && (day_<other.day_)) return true;
     return false;
 }
 bool Date::operator < (const Date& other) const {
-    if (month_<other.month()) return true;
-    if ((month_ == other.month()) && (day_<other.day())) return true;
+    if (month_<other.month_) return true;
+    if ((month_ == other.month_) && (day_<other.day_)) return true;
     return false;
 }
 

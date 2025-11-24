@@ -10,14 +10,14 @@ int main() {
     todo.markAsDone();
     std::cout << todo_description(todo) << "\n";
     // --- Case 2: A recurring Todo ---
-    RecurringTodo rent{"Run", Date(1, 5),
+    RecurringTodo run{"Run", Date(1, 5),
                        Category::Personal,
                        Priority::High,
                        Date(1, 31), 3};
-    while (!rent.isDone()) {
-        std::cout << recurring_todo_description(rent) << std::endl;
-        rent.completeAndScheduleNext();
+    while (!run.isDone()) {
+        std::cout << recurring_todo_description(run) << std::endl;
+        run.completeAndScheduleNext();
     }
-    std::cout << recurring_todo_description(rent) << std::endl;
+    std::cout << recurring_todo_description(run) << std::endl;
     return 0;
 }

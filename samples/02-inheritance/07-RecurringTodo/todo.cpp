@@ -50,25 +50,25 @@ void Todo::markAsDone() {
 
 // ---- Utility function ----
 std::string todo_description(const Todo& todo) {
-    std::ostringstream out;
-    out << todo.title() << " [";
-    out << (todo.isDone() ? "Done" : "Pending");
-    out << "] — ";
+    std::string out;
+    out = todo.title() + " [";
+    out += (todo.isDone() ? "Done" : "Pending");
+    out += "] — ";
 
     // Category
     switch (todo.category()) {
-        case Category::Research:     out << "Research"; break;
-        case Category::Teaching: out << "Teaching"; break;
-        case Category::Personal:    out << "Personal"; break;
+        case Category::Research: out += "Research"; break;
+        case Category::Teaching: out += "Teaching"; break;
+        case Category::Personal: out += "Personal"; break;
     }
 
-    out << " — Priority ";
+    out += " — Priority ";
     switch (todo.priority()) {
-        case Priority::Low:    out << "Low"; break;
-        case Priority::Medium: out << "Medium"; break;
-        case Priority::High:   out << "High"; break;
+        case Priority::Low:    out += "Low"; break;
+        case Priority::Medium: out += "Medium"; break;
+        case Priority::High:   out += "High"; break;
     }
 
-    out << " — Due: " << to_string(todo.scheduledDate());
-    return out.str();
+    out += " — Due: " + to_string(todo.scheduledDate());
+    return out;
 }
