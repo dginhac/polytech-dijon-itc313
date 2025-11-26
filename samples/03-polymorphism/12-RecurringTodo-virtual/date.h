@@ -24,6 +24,11 @@ public:
    Date operator - (int days) const; // date - integer
    Date& operator += (int days);    // date += integer
    Date& operator -= (int days);    // date -= integer
+
+   Date& operator ++ (); // prefix increment: ++date
+   Date& operator -- (); // prefix decrement: --date
+   Date operator ++ (int); // use a dummy int param for postfix increment: date++
+   Date operator -- (int); // use a  dummy int param for postfix decrement: date--
 private:
    int month_;
    int day_;
@@ -32,11 +37,13 @@ private:
 // Free functions
 bool is_date(int month, int day);
 int get_days_in_month(int month);
-std::string to_string(const Date& d) ;
+
 void swap(Date& d1, Date& d2);
 
+Date operator + (int days, const Date& date); // integer + date
 
-
+std::string to_string(const Date& d) ;
+std::ostream& operator << (std::ostream& os, const Date& d);
 
 
 

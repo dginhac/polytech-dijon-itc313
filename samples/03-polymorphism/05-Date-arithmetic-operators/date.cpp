@@ -109,6 +109,16 @@ Date Date::operator-(int days) const {
     return Date(new_month, new_day);
 }
 
+Date& Date::operator+=(int days) {
+    *this = *this + days; // reuse operator+
+    return *this;
+}
+
+Date& Date::operator-=(int days) {
+    *this = *this - days; // reuse operator-
+    return *this;
+}
+
 // Free functions
 bool is_date(int month, int day) {
     if ((day < 1) || (day>31)) return false;

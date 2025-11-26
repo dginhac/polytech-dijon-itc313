@@ -143,7 +143,11 @@ Date Date::operator --(int) {
     return tmp;
 }
 
+// Friend function
 
+Date operator + (int days, const Date& date) {
+     return date + days; // reuse Date + int
+}
 
 
 // Free functions

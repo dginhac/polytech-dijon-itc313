@@ -173,3 +173,7 @@ void swap(Date& d1, Date& d2) {
     d1 = d2;
     d2 = temp;
 }
+
+Date operator + (int days, const Date& date) {
+    return date + days; // reuse Date + int
+}

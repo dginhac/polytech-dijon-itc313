@@ -22,6 +22,9 @@ public:
 
    Date operator + (int days) const; // date + integer
    Date operator - (int days) const; // date - integer
+   Date& operator += (int days);    // date += integer
+   Date& operator -= (int days);    // date -= integer
+
    Date& operator ++ (); // prefix increment: ++date
    Date& operator -- (); // prefix decrement: --date
    Date operator ++ (int); // use a dummy int param for postfix increment: date++

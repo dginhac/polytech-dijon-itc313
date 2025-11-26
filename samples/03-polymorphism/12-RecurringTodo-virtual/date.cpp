@@ -164,12 +164,21 @@ int get_days_in_month(int month) {
     return 31;
 }
 
-std::string to_string(const Date& d) {
-    return std::to_string(d.month()) + "/" + std::to_string(d.day());
-}
-
 void swap(Date& d1, Date& d2) {
     Date temp = d1;
     d1 = d2;
     d2 = temp;
+}
+
+Date operator + (int days, const Date& date) {
+    return date + days; // reuse Date + int
+}
+
+std::string to_string(const Date& d) {
+    return std::to_string(d.month()) + "/" + std::to_string(d.day());
+}
+
+std::ostream& operator << (std::ostream& os, const Date& d) {
+    os << std::to_string(d.month()) + "/" + std::to_string(d.day());
+    return os;
 }
