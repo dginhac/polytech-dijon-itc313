@@ -9,7 +9,12 @@ The documents available in this GitHub repository are intended for students in t
 of the [Polytech'Dijon](https://polytech.ube.fr/) engineering school - Dijon - France.
 They are subject to change as the content of this module evolves.
 
-## Latest NEWS from Season 2025-2026:
+## Latest NEWS from Season 2026-2027:
+
+
+* 2026/09/17: add code samples for lecture 01 (Software development workflow)
+* 2026/09/17: add lecture 01 (Software development workflow)
+* 2026/09/17: add lecture 00 (Introduction)
 
 <!--
 * 2024/11/20: add lecture 04 (STL) and code samples
@@ -18,7 +23,7 @@ They are subject to change as the content of this module evolves.
 * 2024/10/15: update code samples for lecture 01 (User-defined Data Types)
 * 2024/10/03: add TD1 (Tutorials) for lecture 01 (User-defined Data Types)
 * 2024/10/02: update code samples for lecture 01 (User-defined Data Types)
--->
+
 * 2025/11/30: add lecture 04 (STL)
 * 2025/11/26: update lecture 03 (Polymorphism) and code samples
 * 2025/11/18: add lecture 03 (Polymorphism) and code samples
@@ -29,21 +34,20 @@ They are subject to change as the content of this module evolves.
 * 2025/10/08: update code samples for lecture 01 (User-defined Data Types)
 * 2025/10/08: update lecture 01 (User-defined Data Types)
 * 2025/09/30: update lecture 00 (Introduction)
-* 2025/09/25: add code samples for lecture 01 (User-defined Data Types)
-* 2025/09/25: add lecture 01 (User-defined Data Types)
-* 2025/09/25: add lecture 00 (Introduction)
+
+-->
 
 
-## Lectures 2025-2026
+## Lectures 2026-2027
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
-* Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 32 MB - Last release on Sept., 30, 2025
-* Lecture 01: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 33 MB - Last release on Oct., 20, 2025
-* Lecture 02: [Inheritance](https://ginhac.com/ITC313/02-inheritance.pdf) - 16 MB - Last release on Nov., 13, 2025
-* Lecture 03: [Polymorphism](https://ginhac.com/ITC313/03-polymorphism.pdf) - 20 MB - Last release on Nov., 26, 2025
-* Lecture 04: [Standard Template Library](https://ginhac.com/ITC313/04-stl.pdf) - 16 MB - Last release on Nov., 30, 2025
+* Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 15 MB - Last release on Sept., 16, 2026
+* Lecture 01: [Software Development Workflow](https://ginhac.com/ITC313/01-workflow.pdf) - 10 MB - Last release on Sept., 16, 2026
 <!--
-
+* Lecture 02: [User-defined Data Types](https://ginhac.com/ITC313/01-usertypes.pdf) - 33 MB - Last release on Oct., 20, 2025
+* Lecture 03: [Inheritance](https://ginhac.com/ITC313/02-inheritance.pdf) - 16 MB - Last release on Nov., 13, 2025
+* Lecture 04: [Polymorphism](https://ginhac.com/ITC313/03-polymorphism.pdf) - 20 MB - Last release on Nov., 26, 2025
+* Lecture 05: [Standard Template Library](https://ginhac.com/ITC313/04-stl.pdf) - 16 MB - Last release on Nov., 30, 2025
 -->
 * to be continued...
 
@@ -62,6 +66,14 @@ Two additional presentations are also available:
 
 
 ## Past Seasons
+
+## Season 2025-2026
+* Lecture 00: [Course Introduction](https://ginhac.com/teaching/ITC313/2025-2026/00-intro.pdf) - 32 MB - Last release on Sept., 30, 2025
+* Lecture 01: [User-defined Data Types](https://ginhac.com/teaching/ITC313/2025-2026/01-usertypes.pdf) - 33 MB - Last release on Oct., 20, 2025
+* Lecture 02: [Inheritance](https://ginhac.com/teaching/ITC313/2025-2026/02-inheritance.pdf) - 16 MB - Last release on Nov., 13, 2025
+* Lecture 03: [Polymorphism](https://ginhac.com/teaching/ITC313/2025-2026/03-polymorphism.pdf) - 20 MB - Last release on Nov., 26, 2025
+* Lecture 04: [Standard Template Library](https://ginhac.com/teaching/ITC313/2025-2026/04-stl.pdf) - 16 MB - Last release on Nov., 30, 2025
+
 
 ### Season 2024-2025
 * Lecture 00: [Course Introduction](https://ginhac.com/teaching/ITC313/2024-2025/00-intro.pdf) - 30 MB - Last release on Sept., 18, 2024
