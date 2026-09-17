@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2026-2027
 
+* 2026/09/17: add code samples for lecture 02 (User-defined Data Types)
 * 2026/09/17: add lecture 02 (User-defined Data Types)
 * 2026/09/17: add code samples for lecture 01 (Software development workflow)
 * 2026/09/17: add lecture 01 (Software development workflow)
@@ -43,7 +44,7 @@ Lectures are organized in lessons, each of them are dedicated to a specific C++ 
 
 * Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 15 MB - Last release on Sept., 17, 2026
 * Lecture 01: [Software Development Workflow](https://ginhac.com/ITC313/01-workflow.pdf) - 10 MB - Last release on Sept., 17, 2026
-* * Lecture 02: [User-defined Data Types](https://ginhac.com/ITC313/02-usertypes.pdf) - 15 MB - Last release on Sept., 17, 2026
+* Lecture 02: [User-defined Data Types](https://ginhac.com/ITC313/02-usertypes.pdf) - 15 MB - Last release on Sept., 17, 2026
 
 <!--
 * Lecture 03: [Inheritance](https://ginhac.com/ITC313/03-inheritance.pdf) - 16 MB - Last release on Nov., 13, 2025
