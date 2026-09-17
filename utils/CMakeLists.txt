@@ -7,7 +7,7 @@
 # Usage (in a terminal in the root directory of the project):
 # cmake -S . -B build	# generate the build files in the build directory
 # cmake --build build	# compile the project
-# ./bin/app			# run the executable
+# ./build/app			# run the executable
 #
 # set the minimum required version of cmake
 cmake_minimum_required(VERSION 3.15)
