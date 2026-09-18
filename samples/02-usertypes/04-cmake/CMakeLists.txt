@@ -5,10 +5,10 @@
 #
 # The CMakeLists.txt file must be in the root directory of the project where the source files are located
 # Usage (in a terminal in the root directory of the project):
-# mkdir build && cd build # create and go into the build dir
-# cmake ..                # create the makefiles  
-# make                    # compile the source files
-# ./app                   # run the app executable    
+#
+# cmake -S . -B build # generate the build files in the build directory
+# cmake --build build # compile the project
+# ./bin/app			# run the executable
 
 # 1. Specify the minimum CMake version
 cmake_minimum_required(VERSION 3.15)
