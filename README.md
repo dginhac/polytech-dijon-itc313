@@ -11,6 +11,9 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2026-2027
 
+* 2026/10/23: add lecture 05 (Standard Template Library) and code samples
+* 2026/10/23: add lecture 04 (Polymorphism) and code samples
+* 2026/10/23: add lecture 03 (Inheritance) and code samples
 * 2026/09/18: update lecture 02 (User-defined Data Types)
 * 2026/09/17: add code samples for lecture 02 (User-defined Data Types)
 * 2026/09/17: add lecture 02 (User-defined Data Types)
@@ -44,14 +47,12 @@ They are subject to change as the content of this module evolves.
 Lectures are organized in lessons, each of them are dedicated to a specific C++ Topic. They are available in pdf format for download:
 
 * Lecture 00: [Course Introduction](https://ginhac.com/ITC313/00-intro.pdf) - 15 MB - Last release on Sept., 17, 2026
-* Lecture 01: [Software Development Workflow](https://ginhac.com/ITC313/01-workflow.pdf) - 10 MB - Last release on Sept., 17, 2026
+* Lecture 01: [Software Development Workflow](https://ginhac.com/ITC313/01-workflow.pdf) - 11 MB - Last release on Sept., 17, 2026
 * Lecture 02: [User-defined Data Types](https://ginhac.com/ITC313/02-usertypes.pdf) - 15 MB - Last release on Sept., 18, 2026
+* Lecture 03: [Inheritance](https://ginhac.com/ITC313/03-inheritance.pdf) - 12 MB - Last release on Oct., 23, 2026
+* Lecture 04: [Polymorphism](https://ginhac.com/ITC313/04-polymorphism.pdf) - 12 MB - Last release on Oct., 23, 2026
+* Lecture 05: [Standard Template Library](https://ginhac.com/ITC313/05-stl.pdf) - 12 MB - Last release on Oct., 23, 2026
 
-<!--
-* Lecture 03: [Inheritance](https://ginhac.com/ITC313/03-inheritance.pdf) - 16 MB - Last release on Nov., 13, 2025
-* Lecture 04: [Polymorphism](https://ginhac.com/ITC313/04-polymorphism.pdf) - 20 MB - Last release on Nov., 26, 2025
-* Lecture 05: [Standard Template Library](https://ginhac.com/ITC313/05-stl.pdf) - 16 MB - Last release on Nov., 30, 2025
--->
 * to be continued...
 
 ## Other Content
