@@ -11,6 +11,7 @@ They are subject to change as the content of this module evolves.
 
 ## Latest NEWS from Season 2026-2027
 
+* 2026/11/06: update exams
 * 2026/10/23: add lecture 05 (Standard Template Library) and code samples
 * 2026/10/23: add lecture 04 (Polymorphism) and code samples
 * 2026/10/23: add lecture 03 (Inheritance) and code samples

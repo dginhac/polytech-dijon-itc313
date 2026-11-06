@@ -2,7 +2,9 @@
 
 Durée : 1h30 - Documents papiers autorisés
 
-**Attention : Vous veillerez à écrire du code le plus propre possible respectant les règles présentées en cours. Notamment, vous ferez attention à nommer explicitement vos variables, vos fonctions ou vos méthodes, à utiliser à bon escient les références, à utiliser correctement le mot clé « const » dès que nécessaire, …**
+> Attention : Vous veillerez à écrire du code le plus propre possible respectant les règles présentées en cours. Notamment, vous ferez attention à nommer explicitement vos variables, vos fonctions ou vos méthodes, à utiliser à bon escient les références, à utiliser correctement le mot clé « const » dès que nécessaire, …
+
+![Image 1](images/exam-1.png)
 
 ## Exercice 1 : « Lançons les dés »
 
@@ -10,9 +12,10 @@ On se propose de créer une classe De qui sera utilisée pour jouer à des jeux 
 
 **Question 1** - Dans un premier temps, on s’intéressera au dé standard à 6 faces. Pour cela, vous créerez une classe De minimale simulant le lancer d’un dé et permettant d’exécuter le code suivant :
 
-De d1; // Création du dé d1 à 6 faces
-
-int l = d1.lancer() // Lancer du dé d1 (l contient une valeur entre 1 et 6)
+```
+    De d1;                   // Création du dé d1 à 6 faces
+    int l = d1.lancer()      // Lancer du dé d1 (l contient une valeur entre 1 et 6)
+```
 
 Attention, la classe De doit être MINIMALE et ne doit permettre que d’exécuter le code ci-dessus.
 
@@ -20,38 +23,135 @@ Attention, la classe De doit être MINIMALE et ne doit permettre que d’exécut
 
 **Question 3 -** On souhaite maintenant obtenir l’ensemble des valeurs des dés lors des lancers multiples plutôt que leur somme. Par exemple, on souhaiterait obtenir 4, 5, et 2 plutôt que la somme égale à 11. Écrire le code de la méthode et le code de la fonction helper permettant d’obtenir la liste des différents lancers. On nommera ces fonctions « lancers ». Vous justifierez votre choix concernant le stockage des différents lancers. Donner un exemple d’utilisation de ces 2 fonctions.
 
-**Question 4 -** On se propose de créer un jeu basique à base de N dés et M lancers. Le principe du jeu est très simple : à chaque lancer, on élimine la plus petite des valeurs et on relance le dé. Par exemple, avec 3 dés, si on obtient 3 5 2 au premier lancer, on éliminera le 2. Si on obtient 4 au 2<sup>ème</sup> lancer, on aura donc 3 5 4 et on éliminera le 3, et ainsi de suite jusqu’au dernier lancer. Ecrire le code de la fonction helper qui permet de simuler ce jeu, le nombre de dés (N) et le nombre de lancers (M) étant passés en paramètres. Donner un exemple d’utilisation de cette fonction.
+**Question 4 -** On se propose de créer un jeu basique à base de N dés et M lancers. Le principe du jeu est très simple : à chaque lancer, on élimine la plus petite des valeurs et on relance le dé. Par exemple, avec 3 dés, si on obtient 3 5 2 au premier lancer, on éliminera le 2. Si on obtient 4 au 2ème lancer, on aura donc 3 5 4 et on éliminera le 3, et ainsi de suite jusqu’au dernier lancer. Ecrire le code de la fonction helper qui permet de simuler ce jeu, le nombre de dés (N) et le nombre de lancers (M) étant passés en paramètres. Donner un exemple d’utilisation de cette fonction.
 
 **Question 5 -** On se propose de généraliser notre classe Dé et de pouvoir l’utiliser avec des dés ayant un nombre de faces différents de 6. Que faut-il modifier dans le code de la classe pour que le code suivant soit valide ?
 
-De d1; // Création du dé d1 à 6 faces (valeur par défaut)
-
-De d2(6); // Création du dé d2 à 6 faces (valeur passée)
-
-De d3(10); // Création du dé d3 à 10 faces
+```
+    De d1;                   // Création du dé d1 à 6 faces (valeur par défaut)
+    De d2(6);                // Création du dé d2 à 6 faces (valeur passée)
+    De d3(10);               // Création du dé d3 à 10 faces
+```
 
 ## Exercice 2 : « Prenons de l’altitude »
 
 On se propose de stocker des informations d’altitude de villes dans des tableaux. Pour cela, on utilisera une classe Ville comprenant le nom de la ville et son altitude et une classe Villes comprenant un tableau d’objets de la classe Ville.
 
-| Ville | Altitude (m) | Ville | Altitude (m) |
-| --- | --- | --- | --- |
-| Tokyo | 40 m | Nairobi | 1795 |
-| Denver | 1609 | Berlin | 34  |
-| Rio | 2   | Moscou | 156 |
-| Helsinki | 26  | Oslo | 1   |
-| Lisbonne | 2   | Stockholm | 28  |
-| Bogota | 2640 | Marseille | 0   |
+```
+Ville
+```
 
-**Question 1** - Écrire le code minimal de la classe Ville et le code de la classe Villes.
+```
+Altitude (m)
+```
 
-Pour la classe Ville, vous donnerez le code du constructeur et le code des 2 getters.
+```
+Ville
+```
 
-Pour la classe Villes, vous donnerez le code du constructeur, le code du getter et le code de la fonction permettant d’ajouter une ville.
+```
+Altitude (m)
+```
 
-Donner un exemple d’utilisation de ces classes en utilisant des données du tableau ci-dessus.
+```
+Tokyo
+```
 
-**Question 2** - Écrire le code des surcharges de l’opérateur << permettant d’afficher une ville de la classe Ville et l’ensemble des villes de la classe Villes. Justifier votre choix pour l’écriture des surcharges des opérateurs.
+```
+40 m
+```
+
+```
+Nairobi
+```
+
+```
+1795
+```
+
+```
+Denver
+```
+
+```
+1609
+```
+
+```
+Berlin
+```
+
+```
+34
+```
+
+```
+Rio
+```
+
+```
+2
+```
+
+```
+Moscou
+```
+
+```
+156
+```
+
+```
+Helsinki
+```
+
+```
+26
+```
+
+```
+Oslo
+```
+
+```
+1
+```
+
+```
+Lisbonne
+```
+
+```
+2
+```
+
+```
+Stockholm
+```
+
+```
+28
+```
+
+```
+Bogota
+```
+
+```
+2640
+```
+
+```
+Marseille
+```
+
+```
+0
+```
+
+**Question 1** - Écrire le code minimal de la classe Ville et le code de la classe Villes. Pour la classe Ville, vous donnerez le code du constructeur et le code des 2 getters. Pour la classe Villes, vous donnerez le code du constructeur, le code du getter et le code de la fonction permettant d’ajouter une ville. Donner un exemple d’utilisation de ces classes en utilisant des données du tableau ci-dessus.
+
+**Question 2** - Écrire le code des surcharges de l’opérateur \<\< permettant d’afficher une ville de la classe Ville et l’ensemble des villes de la classe Villes. Justifier votre choix pour l’écriture des surcharges des opérateurs.
 
 **Question 3** - Écrire le code de la fonction ou méthode permettant d’extraire les villes dont l’altitude est supérieure à une valeur passée en paramètre. Donner un exemple d’utilisation de cette fonction.
 

@@ -14,25 +14,27 @@ On se propose de créer une classe Vehicule abstraite comprenant les information
 
 estimation = prix_achat \* (1.0 – decote) ^ (année – commercialisation))
 
-**Q4** Écrire la surcharge de l’opérateur << permettant d’afficher toutes les informations d’une voiture.
+**Q4** Écrire la surcharge de l’opérateur \<\< permettant d’afficher toutes les informations d’une voiture.
 
 ## Exercice 2 : « N’oubliez pas votre code »
 
 Soit la classe C++ Coffre représentant un coffre-fort dont la combinaison comporte un nombre variable de chiffres compris entre 0 et 9. La classe Coffre comporte 1 variable membre représentant la combinaison sous la forme d’un vecteur d’entiers.
 
+```cpp
 class Coffre {
 
-private :
+     private :
 
-std::vector&lt;int&gt; \_code; // la combinaison
 
+           std::vector<int> _code; // la combinaison
 } ;
+```
 
 **Q1** Par défaut un coffre-fort a une combinaison à 4 chiffres initialisée à 0000. Ecrire le constructeur de la classe qui permet d’instancier un nouveau coffre générique avec l’instruction suivante : « Coffre c1 ; » Modifier le constructeur afin de pouvoir choisir le nombre de chiffres de la combinaison. Par exemple, « Coffre c2(6) ; » crée un coffre avec une combinaison de 6 chiffres initialisée à 000000.
 
 **Q2** Écrire une fonction helper « affiche » qui prend en paramètre une variable Coffre et qui retourne une chaine de caractères correspondant à la combinaison de chiffres stockée dans le coffre. L’instruction « affiche(c1) » retournera « 0000 » pour le coffre C1 défini à la question 1. La conversion d’un entier en std ::string se fera avec la fonction std ::to_string(int).
 
-**Q3** Ecrire une fonction helper « change » qui prend en paramètre une variable Coffre et un vecteur d’entiers. Cette fonction permet de modifier la combinaison du Coffre c1 avec l’instruction « change(c1, combinaison) ». La variable combinaison est définie par exemple comme « std ::vector&lt;int&gt; combinaison = {6, 7, 8, 2, 3, 4} ; » ou comme un entier comme « int combinaison = 678234 ». Ecrire les 2 fonctions.
+**Q3** Ecrire une fonction helper « change » qui prend en paramètre une variable Coffre et un vecteur d’entiers. Cette fonction permet de modifier la combinaison du Coffre c1 avec l’instruction « change(c1, combinaison) ». La variable combinaison est définie par exemple comme « std ::vector\<int> combinaison = {6, 7, 8, 2, 3, 4} ; » ou comme un entier comme « int combinaison = 678234 ». Ecrire les 2 fonctions.
 
 **Q4** En utilisant le code de la fonction « change », déduire une fonction « reset » qui fait une réinitialisation de la combinaison à 0000. Cette fonction sera appelée de la manière suivante : « reset(c2) ; »
 
